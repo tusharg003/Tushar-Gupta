@@ -1,0 +1,294 @@
+/* START OF LANDING PAGE STYLE */
+
+#hey {
+    font-size: 5mm;
+    font-style: italic;
+    word-spacing: 1mm;
+    letter-spacing: 1mm;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 1cm;
+    font-family: "Trirong", sans-serif;
+    letter-spacing: 0.75em;
+}
+
+.img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#bg {
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.head {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* END OF LANDING PAGE STYLE */
+
+#about {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 2cm;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    font-size: 9mm;
+    font-family: "Trirong", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#testimo {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 2cm;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    font-size: 9mm;
+    font-family: "Trirong", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: "Trirong", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    /* padding-left:50%;
+        padding-top: 10px;
+        padding-right: 1cm; */
+}
+
+/* NAV BAR CSS */
+
+.nav {
+    width: 100%;
+    margin-top: 0%;
+    list-style-type: none;
+    font-size: 8mm;
+    background-color: #ff000042;
+    backdrop-filter: blur(5px);
+    text-transform: capitalize;
+    /* position: absolute;
+    top: 0%; */
+    left: 0%;
+    transform: translate(0%, 0%);
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    margin-top: 0%;
+    margin-left: 20cm;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    margin-bottom: 0%;
+}
+
+.bar {
+    display: inline;
+    padding: 5mm;
+}
+
+a#nbar {
+    text-decoration: none;
+    color: white;
+}
+
+a#nbar:hover {
+    font-size: 8mm;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+/* a#nbar:active {
+    font-size: 8mm;
+    color: rgb(255, 255, 255);
+   
+    border-bottom: 2px solid white;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+} */
+
+/* END OF NAV BAR CSS */
+
+/* START OF .testimonial */
+
+.table {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin: 100px;
+    border-style: double;
+    border-color: #ff0000;
+    /* margin-top: 50px; */
+}
+
+.testimonial {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.ppl {
+    text-align: center;
+    width: 5cm;
+    border: 10px hidden;
+    padding: 25px 50px 25px 50px;
+    font-size: 20px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+#ppl {
+    font-family: "Trirong", sans-serif;
+    font-size: 1cm;
+    text-align: center;
+    width: 5cm;
+    border-style: 5px hidden;
+}
+
+/* END OF .testimonial */
+
+/* others */
+
+.line {
+    background-color: #ff0000;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+/* START OF SKILL CSS */
+
+#skills {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 2cm;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 0%;
+    font-size: 9mm;
+    font-family: "Trirong", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+a#picins:hover {
+    border-bottom: 5px solid #ff0000;
+    width: 9cm;
+}
+
+#sk {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    list-style-type: none;
+}
+
+.ps {
+    padding: 3mm;
+    /* border-radius: 50%; */
+}
+
+#webdev {
+    width: 100%;
+    height: 8cm;
+    font-size: 18px;
+    padding-top: 4cm;
+}
+
+.ser {
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Trirong", sans-serif;
+    font-size: 8mm;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    text-decoration: underline #ff0000;
+}
+
+#mech {
+    width: 100%;
+    height: 8cm;
+    font-size: 18px;
+    padding-top: 4cm;
+}
+
+/* END OF SKILL CSS */
+
+/* START OF CONTACT CSS */
+
+#con {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 2cm;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 0%;
+    font-size: 9mm;
+    font-family: "Trirong", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.box {
+    width: 100%;
+    height: 3cm;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+#contact {
+    border: 2px hidden whitesmoke;
+    padding-top: 0cm;
+    margin-left: 159mm;
+}
+
+#row {
+    /* border: 10px double whitesmoke; */
+    padding: 1cm;
+}
+
+#col {
+    border: 1px hidden whitesmoke;
+    padding: 1cm;
+}
+
+a#social {
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+a#social:hover {
+    text-decoration: none;
+}
+
+a#social:after {
+    text-decoration: none;
+} */
+
+/* END OF CONTACT CSS */
